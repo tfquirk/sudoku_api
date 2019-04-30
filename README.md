@@ -1,4 +1,4 @@
-# Welcome to Better Sports
+# Sudoku API
 
 Created by: Timothy Quirk
 
