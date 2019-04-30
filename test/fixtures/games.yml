@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player: one
+  board: one
+  solved: false
+  partial_solution: MyString
+  time_elapsed: 2019-04-30 15:33:27
+
+two:
+  player: two
+  board: two
+  solved: false
+  partial_solution: MyString
+  time_elapsed: 2019-04-30 15:33:27
