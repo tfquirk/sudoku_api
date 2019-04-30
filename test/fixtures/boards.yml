@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  puzzle: MyString
+  solution: MyString
+  quickest_time_completed: 2019-04-30 15:31:45
+  quickest_time_completed_player_id: 1
+
+two:
+  puzzle: MyString
+  solution: MyString
+  quickest_time_completed: 2019-04-30 15:31:45
+  quickest_time_completed_player_id: 1
