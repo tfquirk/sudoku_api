@@ -1,24 +1,55 @@
-# README
+# Welcome to Better Sports
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Created by: Timothy Quirk
 
-Things you may want to cover:
+In this repository you will find the back-end repo for sudoku built with Ruby on Rails. The front end can be found in this repository: `FRONTEND URL HERE`
 
-* Ruby version
+## Instructions for use
 
-* System dependencies
+1. After forking and cloning this repository from github, switch into your newly cloned folder.
 
-* Configuration
+2. Install the necessary dependencies with `bundle install`.
 
-* Database creation
+3. This back-end uses a PostGres database. Please make sure you have PostGres installed and then run the following commands in this order:
 
-* Database initialization
+- `rails db:create`
+- `rails db:migrate`
+- `rails db:seed`
+- The front-end will expect this API to be running on localhost:8000. Please run `rails s -p 8000` to run your Rails server.
 
-* How to run the test suite
+4. Once you have your back-end up and running, you may run your React front-end.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Demo
 
-* Deployment instructions
+[![alt text][image]][reference link]
 
-* ...
+[image]: url "Sudoku demo video"
+
+[reference link]: youtube link will go here
+
+Demo video will go here.
+
+## Overview
+
+Overview here
+
+## My assumptions
+
+- Players will want a record of the games they have completed, and their fastest time
+- I will want to show leaderboards for individual games and individual players
+- Boards will only have one solution
+- Players will be able to replay games if they'd like, however, each new board they are given will be a for a game they have never played before
+  - Unless they have an unfinished game, then that can be an alternate play choice
+
+## Additional features that could be added
+
+- List and additional features here
+
+## Technical Specs
+
+This project uses the following technologies:
+
+1. Ruby
+2. Rails API
+3. CSV of Sudoku games from creative commons domain: https://www.kaggle.com/bryanpark/sudoku/downloads/sudoku.zip/3
+4. Additional technologies
