@@ -12,6 +12,5 @@ class Api::V1::BoardsController < ApplicationController
     rescue
       render json: "Board not found.", status: 404
     end
-
   end
 end
