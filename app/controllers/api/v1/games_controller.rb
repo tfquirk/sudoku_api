@@ -1,2 +1,2 @@
-class GamesController < ApplicationController
+class Api::V1::GamesController < ApplicationController
 end
