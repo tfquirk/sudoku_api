@@ -6,7 +6,12 @@ class Api::V1::BoardsController < ApplicationController
   end
 
   def show
-    @board = Board.find(params[:id])
-    render json: @board, status: :ok
+    begin
+      @board = Board.find(params[:id])
+      render json: @board, status: :ok
+    rescue
+      render json: "Board not found.", status: 404
+    end
+
   end
 end

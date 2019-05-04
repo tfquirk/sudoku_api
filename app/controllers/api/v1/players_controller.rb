@@ -6,8 +6,13 @@ class Api::V1::PlayersController < ApplicationController
   end
 
   def show
-    @player = Player.find(params[:id])
-    render json: @player, status: :ok
+    begin
+      @player = Player.find(params[:id])
+
+      render json: @player, status: :ok
+    rescue
+      render json: "Player account not found.", status: 404
+    end
   end
 
 end
